@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Constant dimensions -->
+    <dimen name="c1dp">1dp</dimen>
+    <dimen name="c2dp">2dp</dimen>
+    <dimen name="c3dp">3dp</dimen>
+    <dimen name="c4dp">4dp</dimen>
+    <dimen name="c5dp">5dp</dimen>
+    <dimen name="c6dp">6dp</dimen>
+    <dimen name="c7dp">7dp</dimen>
+    <dimen name="c8dp">8dp</dimen>
+    <dimen name="c10dp">10dp</dimen>
+    <dimen name="c12dp">12dp</dimen>
+    <dimen name="c13dp">13dp</dimen>
+    <dimen name="c15dp">15dp</dimen>
+    <dimen name="c20dp">20dp</dimen>
+    <dimen name="c25dp">25dp</dimen>
+    <dimen name="c80dp">80dp</dimen>
+    <dimen name="c85dp">85dp</dimen>
+    <dimen name="c100dp">100dp</dimen>
+    <dimen name="c125dp">125dp</dimen>
+    <!--text size-->
+    <dimen name="view_text_size">16sp</dimen>
+    <dimen name="normal_textsize">14sp</dimen>
+    <dimen name="header_text_size">13sp</dimen>
+    <dimen name="text_size_default">16sp</dimen>
+
+    <!--image icon size-->
+    <dimen name="image_icon_width">80dp</dimen>
+    <dimen name="image_icon_height">80dp</dimen>
+    <dimen name="image_show_icon_width">60dp</dimen>
+    <dimen name="image_show_icon_height">60dp</dimen>
+    <dimen name="image_his_icon_width">120dp</dimen>
+    <dimen name="image_his_icon_height">120dp</dimen>
+    <dimen name="image_video_icon_width">150dp</dimen>
+    <dimen name="image_video_icon_height">200dp</dimen>
+    <dimen name="action_bar_height">45dp</dimen>
+    <dimen name="image_show_toolbar_width">40dp</dimen>
+    <dimen name="image_show_toolbar__height">40dp</dimen>
+
+    <dimen name="button_textsize">13sp</dimen>
+
+<!--dialog box widht -->
+    <dimen name="dialog_box_width">250dp</dimen>
+    <dimen name="dialog_box_button_width">80dp</dimen>
+    <dimen name="dialog_box_button_height">40dp</dimen>
+
+    <!--splash icon size -->
+    <dimen name="splash_img_width">140dp</dimen>
+    <dimen name="splash_img_height">140dp</dimen>
+</resources>

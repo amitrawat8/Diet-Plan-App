@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/app_bg_light_grey"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/no_data_found"/>
+
+    <TextView
+        android:id="@+id/error_msg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="@dimen/c10dp"
+        android:paddingBottom="@dimen/c5dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_default" />
+
+    <TextView
+        android:id="@+id/retry_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/c5dp"
+        android:fontFamily="@font/opensans"
+        android:background="@drawable/crimson_rounded_bg"
+        android:paddingLeft="@dimen/c15dp"
+        android:paddingTop="@dimen/c5dp"
+        android:paddingRight="@dimen/c15dp"
+        android:paddingBottom="@dimen/c5dp"
+        android:text="@string/retry_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_default" />
+</LinearLayout>

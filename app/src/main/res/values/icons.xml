@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fa_check">&#xf00c;</string>
+    <string name="fa_check_circle">&#xf058;</string>
+    <string name="fa_close">&#xf00d;</string>
+    <string name="fa_info_circle">&#xf05a;</string>
+    <string name="fa_down_arrow">&#xf0d7;</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_box_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/white_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/quad_shape"
+            android:padding="@dimen/c15dp"
+            android:gravity="center"
+            android:layout_weight="0.4">
+            <ImageView
+                android:id="@+id/icon_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/info" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.6">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/msg_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans"
+                    android:gravity="center"
+                    android:text="@string/are_you_sure"
+                    android:textSize="@dimen/header_text_size"
+                    android:textColor="@android:color/black"
+                    android:visibility="gone" />
+                <TextView
+                    android:id="@+id/msg_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/c5dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/opensans"
+                    android:text="@string/confirmation_msg"
+                    android:textSize="@dimen/normal_textsize"
+                    android:textColor="@color/text" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="@dimen/c10dp"
+                android:layout_marginEnd="@dimen/c15dp"
+                android:padding="@dimen/c10dp"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/ok_progress_bar"
+                    android:layout_width="@dimen/dialog_box_button_width"
+                    android:layout_height="@dimen/dialog_box_button_height"
+                    android:padding="@dimen/c5dp"
+                    android:theme="@style/AppTheme.NoActionBar"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="@dimen/dialog_box_button_width"
+                    android:layout_height="@dimen/dialog_box_button_height"
+                    android:background="@drawable/cancel_btn_gradient"
+                    android:fontFamily="@font/opensans"
+                    android:padding="@dimen/c7dp"
+                    android:text="@string/cancel"
+                    android:textSize="@dimen/button_textsize"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/ok_btn"
+                    android:layout_width="@dimen/dialog_box_button_width"
+                    android:layout_height="@dimen/dialog_box_button_height"
+                    android:text="@string/ok"
+                    android:fontFamily="@font/opensans"
+                    android:textStyle="bold"
+                    android:padding="@dimen/c7dp"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="@dimen/c13dp"
+                    android:background="@drawable/ok_btn_gradient"
+                    android:textSize="@dimen/button_textsize"
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
